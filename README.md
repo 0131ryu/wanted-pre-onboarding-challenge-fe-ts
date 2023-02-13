@@ -2,6 +2,26 @@
 원티드 챌린지
 ## 챌린지 과제 가이드
 
+section3 다른 사람의 tyscript를 보고 구현해보기
+
+`Jayun Lee`님의 typescript를 참고했습니다
+(https://github.com/jaypedia/wanted-pre-onboarding-challenge-fe-2/blob/main/src/index.ts)
+
+1. `id`, `content`, `isCompleted`, `category`가 필수로 들어가게 함(create)
+
+2. Todo는 형식만 참조해야 할 것 같습니다
+▶ 설계는 Todo에 값을 넣으라고 만드신 거 같아 `Todo.push`를
+하려 하니 형식만 참조하고 값으로는 이용할 수 없었습니다
+▶ 임의로 `let TodoLists: Todo[];`를 만들었습니다
+
+3. `interface`인 `CreateTodo`, `GetTodos`, `GetTodoById`,
+`UpdateTodo`, `UpdateTags`, `DeleteAllTodos`, `DeleteTodoById`
+`DeleteAllTags`, `DeleteTag` 있는 부분들이 오류를 만들어냄
+▶ 여러 방법을 시도했으나 결국 매개변수만 남겨두고 구현
+
+4. 각각의 매개변수에 타입 지정
+▶ 매개변수로 들어가는 `todo`를 `todo: string`으로 만들어서 진행
+
 >요구 사항을 구현하지 않고 설계만합니다.
 - Todo 앱을 Interface로 설계하고 모델링하는 챌린지 과제입니다.
 - 모든 요구사항은 선언을 기반으로 수행합니다.
