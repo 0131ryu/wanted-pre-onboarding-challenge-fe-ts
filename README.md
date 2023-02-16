@@ -2,7 +2,10 @@
 원티드 챌린지
 ## 챌린지 과제 가이드
 
-section3 다른 사람의 tyscript를 보고 구현해보기
+section4 typescript exercise 
+> branch section4
+
+section3  다른 사람의 tyscript를 보고 구현해보기
 
 `Jayun Lee`님의 typescript를 참고했습니다
 (https://github.com/jaypedia/wanted-pre-onboarding-challenge-fe-2/blob/main/src/index.ts)
